@@ -172,3 +172,48 @@ nav .burger-menu {
     padding: 20px;
     margin: 10px;
 }
+
+/* projects section */
+
+.projects {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: var(--bottom-margin-2);
+}
+
+.project-pic {
+    width: 65%;
+    height: 60%;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-container {
+    text-align: center;
+    padding: 1rem;
+    width: 21.875rem;
+}
+.project-container p {
+    padding: 0.4rem;
+}
+.project-title {
+    margin-bottom: var(--bottom-margin);
+}
+.project-details {
+    margin-bottom: var(--bottom-margin);
+}
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0px 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
