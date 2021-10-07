@@ -44,3 +44,50 @@ a:hover {
 body {
     font-family: var(--font-family);
 }
+
+/* Navbar */
+
+nav {
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+nav a {
+    transition: var(--transition);
+    text-transform: capitalize;
+}
+
+nav a:hover {
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+}
+
+nav ul li {
+    font-weight: var(--bold-font);
+}
+
+nav .burger-menu {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
