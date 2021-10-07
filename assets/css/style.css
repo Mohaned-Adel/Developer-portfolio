@@ -281,3 +281,41 @@ nav .burger-menu {
     background-color: var(--primary-color);
     cursor: pointer;
 }
+
+/* social accounts icons */
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
+.socials .socicon {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+}
+
+/* scroll to top */
+
+.scroll-up {
+    position: fixed;
+    right: 1%;
+    bottom: 3%;
+}
+
+.scroll-up .up-arrow {
+    width: 3rem;
+    height: 3rem;
+}
