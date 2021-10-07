@@ -289,7 +289,7 @@ nav .burger-menu {
     flex-direction: column;
     gap: 10px;
     position: fixed;
-    right: 1%;
+    right: 2%;
     bottom: 50%;
 }
 
@@ -311,7 +311,7 @@ footer {
 
 .scroll-up {
     position: fixed;
-    right: 1%;
+    right: 2%;
     bottom: 3%;
     cursor: pointer;
 }
