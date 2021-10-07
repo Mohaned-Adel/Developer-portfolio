@@ -11,7 +11,7 @@
     --secondary-color: #ff7235;
     --primary-shadow: #8b8eaf;
     --secondary-shadow: #a17a69;
-    --bottom-margin:0,5rem;
+    --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7;
     --transition: 0.3s;
@@ -123,4 +123,21 @@ nav .burger-menu {
 .bio p {
     line-height: var(--line-height);
     padding: 0.3rem 0;
+}
+
+/* about section */
+
+.more-about {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+}
+
+.more-about h2 {
+    text-align: center;
+    margin-bottom: var(--bottom-margin);
+}
+
+.more-about p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
 }
